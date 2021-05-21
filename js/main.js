@@ -14,11 +14,11 @@
   //初回の表示
   showTask();
 
-  let name = prompt('タスクを入力してください');
+  const name = prompt('タスクを入力してください');
   alert('新しいタスクを追加しました。');
   tasks.push(name);
   showTask();
   
-  let status = prompt('「確認、追加、削除、終了」の４つのいづれかを入力してください。');
+  const status = prompt('「確認、追加、削除、終了」の４つのいづれかを入力してください。');
 
 }
